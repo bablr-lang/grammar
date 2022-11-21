@@ -1,0 +1,21 @@
+{
+  "name": "@cst-tokens/grammar",
+  "description": "A utility for declaring grammars over trees",
+  "version": "0.0.0",
+  "author": "Conrad Buck<conartist6@gmail.com>",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "eslint": "^7.32.0"
+  },
+  "repository": "github:js-cst-tokens/grammar",
+  "homepage": "https://github.com/js-cst-tokens/grammar",
+  "license": "MIT"
+}
