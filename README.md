@@ -9,8 +9,8 @@ The `Grammar` class helps you build grammars that define operations whose result
 - The `Node` alias always exists. It refers to all defined concrete types.
 - Implements the javascript [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) API.
 - Grammars are immutable. `grammar.set()`, `grammar.delete()`, and `grammar.clear()` are errors.
-- `new Grammar({ base: new Grammar() }).base`. Grammars can be nested, and inherit rules from base grammars except where they are explicitly overridden.
-- Grammar chaining -- productions are `(props, next) => result` where `next` is the grammar that was overridden (if any). It is the responsibility of the user not to call `next` if it does not exist.
+- `new Grammar({ base: new Grammar() }).base`. Grammars can be nested, and inherit productions from base grammars except where they are explicitly overridden.
+- Production chaining -- productions are `(props, grammar, next) => result` where `next` is the production that was overridden (if any). It is the responsibility of the user not to call `next` if it does not exist.
 
 ## Usage
 
