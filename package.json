@@ -1,7 +1,7 @@
 {
   "name": "@cst-tokens/grammar",
   "description": "A utility for declaring grammars over trees",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
   "type": "module",
   "files": [
