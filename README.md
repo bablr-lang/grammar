@@ -1,4 +1,4 @@
-# @cst-tokens/grammar
+# @bablr/grammar
 
 The `Grammar` class helps you build grammars that define operations whose results are defined over a set of CST node types (or AST node types for that matter).
 
