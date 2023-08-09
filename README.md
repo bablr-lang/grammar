@@ -15,8 +15,8 @@ The `Grammar` class helps you build grammars that define operations whose result
 ## Usage
 
 ```js
-import { Grammar } from '@cst-tokens/grammar';
-import { objectEntries, wrap } from '@cst-tokens/helpers/iterable';
+import { Grammar } from '@bablr/grammar';
+import { objectEntries, wrap } from '@bablr/helpers/iterable';
 // import { aliases } = from 'some-grammar/version';
 
 const aliases = [
