@@ -11,9 +11,16 @@
     ".": "./lib/index.js"
   },
   "sideEffects": false,
+  "dependencies": {
+    "iter-tools-es": "^7.5.3"
+  },
   "devDependencies": {
-    "prettier": "^2.6.2",
-    "eslint": "^7.32.0"
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
+    "enhanced-resolve": "^5.12.0",
+    "eslint": "^7.32.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.6.2"
   },
   "repository": "github:bablr-lang/grammar",
   "homepage": "https://github.com/bablr-lang/grammar",
